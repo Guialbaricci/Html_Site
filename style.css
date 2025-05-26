@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-    background-image: url('pipoca.webp');
+    background-image: url('Imagens/pipoca.webp');
     background-size: 1000px;
     background-position: center;
     background-attachment: fixed;
@@ -104,12 +104,10 @@ main {
     overflow: hidden;
     text-align: center;
     padding-bottom: 10px;
-    transition: transform 0.2s;
 }
 
 .movie-card img {
     width: 100%;
-    height: auto;
 }
 
 .movie-card h3 {
