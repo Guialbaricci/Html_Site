@@ -1,5 +1,111 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: black;
+    min-height: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffffec;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 0 #e00000,
+    2px 0 #e00000,
+    0 3px 0 #e00000,
+    0 4px 0 #e00000,
+    0 5px 0 #e00000,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.botao {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 16px 30px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #b20710;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: left;
+    padding-top: 70px;
+    justify-content: left;
+    padding-left: 40px;
+    height: 100%;
+}
+
+#left-side {
+    background-image: url(./imagens/batman2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+
+}
+
+
+footer {
+    background-color: black;
+    color: #aaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+@keyframes colorido {
+    0% {
+      background-color: rgb(255, 255, 255);
+    }
+    25% {
+      background-color: rgb(255, 246, 163);
+    }
+  
+    50% {
+      background-color: rgb(249, 255, 76);
+    }qa
+  
+    100% {
+      background-color: rgb(255, 251, 5);
+    }
+  }  
