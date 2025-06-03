@@ -11,13 +11,12 @@ body, html {
 #app {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     background-color: #f0f0f0;
 }
 
 header {
     background-color: black;
-    min-height: 100px;
+    height: 250px;
     text-align: center;
     width: 100%;
 }
@@ -27,6 +26,7 @@ header h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffffec;
     margin-bottom: 30px;
+    padding-bottom: 20px;
     text-shadow: 0 1px 0 #e00000,
     2px 0 #e00000,
     0 3px 0 #e00000,
@@ -64,11 +64,12 @@ header h1 {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-image: url('imagens/fundo.jpg');
     width: 80%;
     text-align: center;
-    padding-top: 70px;
+    padding-top:150px;
     justify-content: center;
+    height: 683px;
 }
 
 .movie-grid {
@@ -76,8 +77,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 30px;
-    padding: 0 110px;
-    padding-bottom: 70px;
+    padding-left: 110px;
 }
 
 .movie-card {
@@ -85,7 +85,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
 }
 
 .movie-card img {
@@ -97,11 +97,7 @@ main {
     margin: 10px 0 5px;
     font-size: 18px;
     color: white;
-}
-
-.movie-card p {
-    font-size: 15px;
-    color: #ccc;
+    padding-top: 20px;
 }
 
 .movie-card:hover {
@@ -110,7 +106,7 @@ main {
 
 
 #right-side {
-    background: rgb(176, 212, 236);
+    background-color: rgb(151, 25, 25);
     width: 20%;
     height: 100%;
     position:relative;

@@ -65,11 +65,10 @@ header h1 {
 
 main {
     background-color: rgb(255, 255, 255);
-    width: 80%;
-    text-align: left;
+    width: 50%;
+    text-align: center;
     padding-top: 70px;
-    justify-content: left;
-    padding-left: 40px;
+    justify-content: center;
     height: 100%;
 }
 
@@ -78,9 +77,16 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 40%;
+    width: 25%;
     height: 100vh;
+}
 
+#right-side {
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+    background-color:rgb(253, 82, 82);
 }
 
 
