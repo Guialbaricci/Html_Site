@@ -21,6 +21,108 @@ header {
     min-height: 100px;
     text-align: center;
     width: 100%;
+}
+
+header h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffffec;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 0 #e00000,
+    2px 0 #e00000,
+    0 3px 0 #e00000,
+    0 4px 0 #e00000,
+    0 5px 0 #e00000,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.botao {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 16px 30px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #b20710;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    text-align: center;
+    padding-top: 70px;
+    justify-content: center;
+    height: 100%;
+}
+
+#left-side {
+    background-image: url(../imagens/batman2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+}
+
+#right-side {
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 100vh;
+    background-color:rgb(253, 82, 82);
+}
+
+
+footer {
+    background-color: black;
+    color: #aaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: black;
+    min-height: 100px;
+    text-align: center;
+    width: 100%;
     padding: 20px;
 }
 
@@ -74,6 +176,7 @@ main {
     justify-content: center;
     display: flex;
     align-items: flex-start;
+    height: auto;
 }
 
 main iframe {
@@ -88,17 +191,14 @@ main iframe {
     background-position: center;
     background-size: cover;
     width: 25%;
-    position:relative;
     min-height: 60vh;
 }
 
 #right-side {
-   color:#fff;
     background-position: center;
     background-size: cover;
     width: 25%;
     min-height: 60vh;
-    padding: 20px;
     background-color: rgb(253, 82, 82);
 }
 
